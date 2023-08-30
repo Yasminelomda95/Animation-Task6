@@ -1,0 +1,166 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    background-color:#f2d6d6;
+}
+.div1 {
+    width:200px;
+    height:150px;
+    border-radius:30%;
+    background-color:#ed9e9e; 
+    position:absolute;
+    background-image:url(../images/image1.jpg);
+    background-size:cover;
+
+    animation-name:d1;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+}
+@keyframes d1 {
+    0% {
+        background-color:indianred;
+        left:0;
+    }
+   
+    100% {
+        background-color:lightblue;
+        left:1155px;
+    }
+}
+.div2 {
+    width:200px;
+    height:150px; 
+    position:absolute;
+    top:250px;
+
+    animation-name:d2;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-delay:3s;
+}
+.d2-title {
+    font-size:50px;
+    padding:10px 35px;
+}
+@keyframes d2 {
+    0% {
+       
+        left:0;
+    }
+   
+    100% {
+      
+        left:1155px;
+    }
+}
+.div3 {
+    width:200px;
+    height:150px;
+    border-radius:30%; 
+    position:absolute;
+    top:500px;
+    background-image:url(../images/image3.jpg);
+    background-size:cover;
+  
+
+    animation-name:d3;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-delay:6s;
+}
+@keyframes d3 {
+    0% {
+       
+        left:0;
+    }
+   
+    100% {
+       
+        left:1155px;
+    }
+}
+
+.div4 {
+    width:200px;
+    height:150px; 
+    position:absolute;
+   
+    animation-name:d4;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+}
+.d4-title {
+    font-size:100px;
+    padding:10px 35px;
+}
+@keyframes d4 {
+    0% {
+        
+        right:0;
+    }
+    
+    100% {
+       
+        right:1155px;
+    }
+}
+
+.div5 {
+    width:200px;
+    height:150px;
+    border-radius:30%;
+    background-color:#ed9e9e; 
+    position:absolute;
+    top:250px;
+    right:0;
+    background-image:url(../images/image2.jpg);
+    background-size:cover;
+
+    animation-name:d5;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-delay:3s;
+}
+
+@keyframes d5 {
+    0% {
+        background-color:indianred;
+        right:0;
+    }
+    
+    100% {
+        background-color:lightblue;
+        right:1155px;
+    }
+}
+.div6 {
+    width:200px;
+    height:150px; 
+    position:absolute;
+    top:500px;
+    right:0;
+
+    animation-name:d6;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-delay:6s;
+}
+.d6-title {
+    font-size:60px;
+    padding:40px 20px;
+}
+
+@keyframes d6 {
+    0% {
+       
+        right:0;
+    }
+    
+    100% {
+       
+        right:1155px;
+    }
+}
